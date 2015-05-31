@@ -1,6 +1,20 @@
 {
   "name": "tikal",
   "version": "1.0.0",
+  "description": "Small Utility for testing WebSocket in nodejs testing concurrent connections",
+  "keywords": [
+    "ws",
+    "websocket",
+    "async",
+    "concurrent",
+    "connections",
+    "load",
+    "stress",
+    "connection",
+    "utility"
+  ],
+  "author": "Omer Herera",
+  "license": "MIT",
   "dependencies": {
     "async": "^0.9.x",
     "colors": "^1.0.x",
@@ -27,6 +41,10 @@
     "sinon": "1.12.x",
     "time-grunt": "0.2.x",
     "travis-cov": "0.2.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OmerHerera/tikal.git"
   },
   "main": "/.src/index.js",
   "scripts": {
