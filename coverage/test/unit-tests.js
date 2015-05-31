@@ -24,10 +24,7 @@ describe('tikal functionality', function () {
     });
 
     it('invoking methods', function (done) {
-        index.start(function (err) {
-            server.stop();
-            done();
-        });
+        index.start();
         done();
     });
 

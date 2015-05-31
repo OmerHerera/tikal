@@ -29,9 +29,6 @@ _$jscoverage['src/index.js'].source=['var async               = require(\'async\
 '                    connection.send(JSON.stringify(config.messages));',
 '                }, config.delay_per_message);',
 '            }',
-'            else {',
-'                callback();',
-'            }',
 '        });',
 '',
 '        connection.on(\'error\', function() {',
@@ -49,7 +46,7 @@ _$jscoverage['src/index.js'].source=['var async               = require(\'async\
 '}',
 '',
 '',
-'function _start(done) {',
+'function _start() {',
 '    for (var index = 0; index < config.connections; index++) {',
 '        array_connections.push(_createSingleConnection(config));',
 '    }',
@@ -61,8 +58,6 @@ _$jscoverage['src/index.js'].source=['var async               = require(\'async\
 '        else {',
 '            console.log(colors.green("Finnish Successfully"));',
 '        }',
-'',
-'        done(err);',
 '    });',
 '}',
 '',
@@ -77,9 +72,9 @@ _$jscoverage['src/index.js'].source=['var async               = require(\'async\
 '};',
 '_start();',
 ''];
-_$jscoverage['src/index.js'][42]=0;
+_$jscoverage['src/index.js'][39]=0;
 _$jscoverage['src/index.js'][1]=0;
-_$jscoverage['src/index.js'][43]=0;
+_$jscoverage['src/index.js'][40]=0;
 _$jscoverage['src/index.js'][13]=0;
 _$jscoverage['src/index.js'][10]=0;
 _$jscoverage['src/index.js'][11]=0;
@@ -89,33 +84,31 @@ _$jscoverage['src/index.js'][16]=0;
 _$jscoverage['src/index.js'][14]=0;
 _$jscoverage['src/index.js'][17]=0;
 _$jscoverage['src/index.js'][27]=0;
-_$jscoverage['src/index.js'][25]=0;
 _$jscoverage['src/index.js'][24]=0;
 _$jscoverage['src/index.js'][22]=0;
+_$jscoverage['src/index.js'][25]=0;
 _$jscoverage['src/index.js'][23]=0;
 _$jscoverage['src/index.js'][26]=0;
 _$jscoverage['src/index.js'][19]=0;
-_$jscoverage['src/index.js'][60]=0;
-_$jscoverage['src/index.js'][35]=0;
-_$jscoverage['src/index.js'][31]=0;
-_$jscoverage['src/index.js'][63]=0;
-_$jscoverage['src/index.js'][44]=0;
-_$jscoverage['src/index.js'][36]=0;
-_$jscoverage['src/index.js'][37]=0;
-_$jscoverage['src/index.js'][41]=0;
-_$jscoverage['src/index.js'][38]=0;
-_$jscoverage['src/index.js'][68]=0;
 _$jscoverage['src/index.js'][57]=0;
-_$jscoverage['src/index.js'][56]=0;
+_$jscoverage['src/index.js'][32]=0;
+_$jscoverage['src/index.js'][53]=0;
+_$jscoverage['src/index.js'][41]=0;
+_$jscoverage['src/index.js'][34]=0;
+_$jscoverage['src/index.js'][33]=0;
+_$jscoverage['src/index.js'][38]=0;
+_$jscoverage['src/index.js'][35]=0;
+_$jscoverage['src/index.js'][63]=0;
+_$jscoverage['src/index.js'][54]=0;
+_$jscoverage['src/index.js'][49]=0;
 _$jscoverage['src/index.js'][52]=0;
-_$jscoverage['src/index.js'][55]=0;
-_$jscoverage['src/index.js'][50]=0;
-_$jscoverage['src/index.js'][51]=0;
+_$jscoverage['src/index.js'][47]=0;
+_$jscoverage['src/index.js'][48]=0;
+_$jscoverage['src/index.js'][62]=0;
+_$jscoverage['src/index.js'][66]=0;
 _$jscoverage['src/index.js'][67]=0;
+_$jscoverage['src/index.js'][68]=0;
 _$jscoverage['src/index.js'][71]=0;
-_$jscoverage['src/index.js'][72]=0;
-_$jscoverage['src/index.js'][73]=0;
-_$jscoverage['src/index.js'][76]=0;
 }_$jscoverage['src/index.js'][1]++;
 var async               = require('async')
     , WS                = require('ws')
@@ -161,73 +154,66 @@ count ++;
 connection.send(JSON.stringify(config.messages));
                 }, config.delay_per_message);
             }
-            else {
-                _$jscoverage['src/index.js'][31]++;
-callback();
-            }
         });
 
-        _$jscoverage['src/index.js'][35]++;
+        _$jscoverage['src/index.js'][32]++;
 connection.on('error', function() {
-            _$jscoverage['src/index.js'][36]++;
+            _$jscoverage['src/index.js'][33]++;
 console.log(colors.red("---------------------------------------------------------------------------------------------------------"));
-            _$jscoverage['src/index.js'][37]++;
+            _$jscoverage['src/index.js'][34]++;
 console.log(colors.red("Exception, error from URL: " + connection.URL));
-            _$jscoverage['src/index.js'][38]++;
+            _$jscoverage['src/index.js'][35]++;
 callback(new Error("Error"));
         });
 
-        _$jscoverage['src/index.js'][41]++;
+        _$jscoverage['src/index.js'][38]++;
 connection.on('close', function () {
-            _$jscoverage['src/index.js'][42]++;
+            _$jscoverage['src/index.js'][39]++;
 console.log(colors.green("---------------------------------------------------------------------------------------------------------"));
-            _$jscoverage['src/index.js'][43]++;
+            _$jscoverage['src/index.js'][40]++;
 console.log(colors.green("Connection Closed"));
-            _$jscoverage['src/index.js'][44]++;
+            _$jscoverage['src/index.js'][41]++;
 callback();
         });
     };
 }
 
 
-_$jscoverage['src/index.js'][50]++;
-function _start(done) {
-    _$jscoverage['src/index.js'][51]++;
+_$jscoverage['src/index.js'][47]++;
+function _start() {
+    _$jscoverage['src/index.js'][48]++;
 for (var index = 0; index < config.connections; index++) {
-        _$jscoverage['src/index.js'][52]++;
+        _$jscoverage['src/index.js'][49]++;
 array_connections.push(_createSingleConnection(config));
     }
 
-    _$jscoverage['src/index.js'][55]++;
+    _$jscoverage['src/index.js'][52]++;
 async.parallelLimit(array_connections, config.async.limit, function (err, result) {
-        _$jscoverage['src/index.js'][56]++;
+        _$jscoverage['src/index.js'][53]++;
 if (err) {
-            _$jscoverage['src/index.js'][57]++;
+            _$jscoverage['src/index.js'][54]++;
 console.log(colors.red("An error occur in the parallelLimit"));
         }
         else {
-            _$jscoverage['src/index.js'][60]++;
+            _$jscoverage['src/index.js'][57]++;
 console.log(colors.green("Finnish Successfully"));
         }
-
-        _$jscoverage['src/index.js'][63]++;
-done(err);
     });
 }
 
-_$jscoverage['src/index.js'][67]++;
+_$jscoverage['src/index.js'][62]++;
 exports.start = function (done) {
-    _$jscoverage['src/index.js'][68]++;
+    _$jscoverage['src/index.js'][63]++;
 _start(done);
 };
 
-_$jscoverage['src/index.js'][71]++;
+_$jscoverage['src/index.js'][66]++;
 exports.configure = function (cfg) {
-    _$jscoverage['src/index.js'][72]++;
+    _$jscoverage['src/index.js'][67]++;
 for (var key in cfg) {
-        _$jscoverage['src/index.js'][73]++;
+        _$jscoverage['src/index.js'][68]++;
 config[key] = cfg[key];
     }
 };
-_$jscoverage['src/index.js'][76]++;
+_$jscoverage['src/index.js'][71]++;
 _start();
