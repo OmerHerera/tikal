@@ -27,11 +27,15 @@ function _createSingleConnection (options) {
                     connection.send(JSON.stringify(config.messages));
                 }, config.delay_per_message);
             }
+            else {
+                callback();
+            }
         });
 
         connection.on('error', function() {
             console.log(colors.red("---------------------------------------------------------------------------------------------------------"));
             console.log(colors.red("Exception, error from URL: " + connection.URL));
+            callback(new Error("Error"));
         });
 
         connection.on('close', function () {
