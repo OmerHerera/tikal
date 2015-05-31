@@ -27,9 +27,6 @@ function _createSingleConnection (options) {
                     connection.send(JSON.stringify(config.messages));
                 }, config.delay_per_message);
             }
-            else {
-                callback();
-            }
         });
 
         connection.on('error', function() {
@@ -47,7 +44,7 @@ function _createSingleConnection (options) {
 }
 
 
-function _start(done) {
+function _start() {
     for (var index = 0; index < config.connections; index++) {
         array_connections.push(_createSingleConnection(config));
     }
@@ -59,8 +56,6 @@ function _start(done) {
         else {
             console.log(colors.green("Finnish Successfully"));
         }
-
-        done(err);
     });
 }
 

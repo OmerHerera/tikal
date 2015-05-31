@@ -16,7 +16,7 @@
   "author": "Omer Herera",
   "license": "MIT",
   "dependencies": {
-    "async": "^0.9.x",
+    "async": "^1.0.0",
     "colors": "^1.0.x",
     "ws": "^0.7.x"
   },
