@@ -3,7 +3,7 @@ var async               = require('async')
     , config            = require('./config.json')
     , colors            = require('colors')
     , array_connections = []
-    , count             = 0
+    , count             = 0;
 
 
 
@@ -55,7 +55,7 @@ function _start(done) {
         else {
             console.log(colors.green("Finnish Successfully"));
         }
-        
+
         done(err);
     });
 }
