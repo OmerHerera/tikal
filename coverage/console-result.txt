@@ -1,13 +1,0 @@
-unit-server started
-
-
-  tikal functionality
----------------------------------------------------------------------------------------------------------
-Connection Opened and sending to URL: ws://127.0.0.1:5001
-    ✓ index methods
-Message Received from URL: ws://127.0.0.1:5001 message: something
-    ✓ invoking methods
-
-
-  2 passing (16ms)
-
