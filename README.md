@@ -2,7 +2,7 @@
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![Build Status](https://travis-ci.org/OmerHerera/tikal.svg?branch=master)](https://travis-ci.org/OmerHerera/tikal)
-[![Code Climate](https://codeclimate.com/github/OmerHerera/badges/badges/gpa.svg)](https://codeclimate.com/github/OmerHerera/badges)
+[![Code Climate](https://codeclimate.com/github/OmerHerera/tikal/badges/gpa.svg)](https://codeclimate.com/github/OmerHerera/tikal)
 [![Coverage Status](https://coveralls.io/repos/OmerHerera/badges/badge.svg?branch=master)](https://coveralls.io/r/OmerHerera/badges?branch=master)
 [![Dependency Status](https://david-dm.org/OmerHerera/tikal.svg?theme=shields.io)](https://david-dm.org/OmerHerera/tikal)
 [![devDependency Status](https://david-dm.org/OmerHerera/tikal/dev-status.svg?theme=shields.io)](https://david-dm.org/OmerHerera/tikal#info=devDependencies)
