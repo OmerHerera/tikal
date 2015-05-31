@@ -1,14 +1,14 @@
 # tikal
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
-[![Build Status](https://travis-ci.org/OmerHerera/badges.svg?branch=master)](https://travis-ci.org/OmerHerera/badges)
+[![Build Status](https://travis-ci.org/OmerHerera/tikal.svg?branch=master)](https://travis-ci.org/OmerHerera/tikal)
 [![Code Climate](https://codeclimate.com/github/OmerHerera/badges/badges/gpa.svg)](https://codeclimate.com/github/OmerHerera/badges)
 [![Coverage Status](https://coveralls.io/repos/OmerHerera/badges/badge.svg?branch=master)](https://coveralls.io/r/OmerHerera/badges?branch=master)
-[![Dependency Status](https://david-dm.org/OmerHerera/badges.svg?theme=shields.io)](https://david-dm.org/OmerHerera/badges)
-[![devDependency Status](https://david-dm.org/OmerHerera/badges/dev-status.svg?theme=shields.io)](https://david-dm.org/OmerHerera/badges#info=devDependencies)
-[![npm version](https://badge.fury.io/js/badgess.svg)](http://badge.fury.io/js/badgess)
-[![npm downloads](https://img.shields.io/npm/dm/badgess.svg)](https://img.shields.io/npm/dm/badgess.svg)
-[![NPM](https://nodei.co/npm/badgess.png)](https://nodei.co/npm/badgess/)
+[![Dependency Status](https://david-dm.org/OmerHerera/tikal.svg?theme=shields.io)](https://david-dm.org/OmerHerera/tikal)
+[![devDependency Status](https://david-dm.org/OmerHerera/tikal/dev-status.svg?theme=shields.io)](https://david-dm.org/OmerHerera/tikal#info=devDependencies)
+[![npm version](https://badge.fury.io/js/tikal.svg)](http://badge.fury.io/js/tikal)
+[![npm downloads](https://img.shields.io/npm/dm/tikal.svg)](https://img.shields.io/npm/dm/tikal.svg)
+[![NPM](https://nodei.co/npm/tikal.png)](https://nodei.co/npm/tikal/)
 
 #Description
 
