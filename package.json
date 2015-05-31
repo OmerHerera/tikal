@@ -21,6 +21,7 @@
     "grunt-string-replace": "1.0.x",
     "load-grunt-config": "0.7.x",
     "load-grunt-tasks": "1.0.x",
+    "mocha-lcov-reporter": "0.0.2",
     "mockery": "1.4.x",
     "should": "4.3.x",
     "sinon": "1.12.x",
@@ -31,7 +32,6 @@
   "scripts": {
     "start": "node ./src/index.js",
     "test": "grunt default --verbose"
-
   },
   "engines": {
     "node": ">= 0.10.x"
