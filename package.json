@@ -1,0 +1,39 @@
+{
+  "name": "tikal",
+  "version": "1.0.0",
+  "dependencies": {
+    "async": "^0.9.x",
+    "colors": "^1.0.x",
+    "ws": "^0.7.x"
+  },
+  "devDependencies": {
+    "chai": "1.9.x",
+    "grunt": "0.4.x",
+    "grunt-blanket": "0.0.x",
+    "grunt-cli": "0.1.x",
+    "grunt-concurrent": "1.0.x",
+    "grunt-contrib-clean": "0.6.x",
+    "grunt-contrib-copy": "0.7.x",
+    "grunt-contrib-jshint": "0.8.x",
+    "grunt-coveralls": "^1.0.0",
+    "grunt-mocha-cli": "1.6.x",
+    "grunt-mocha-test": "0.12.x",
+    "grunt-string-replace": "1.0.x",
+    "load-grunt-config": "0.7.x",
+    "load-grunt-tasks": "1.0.x",
+    "mockery": "1.4.x",
+    "should": "4.3.x",
+    "sinon": "1.12.x",
+    "time-grunt": "0.2.x",
+    "travis-cov": "0.2.x"
+  },
+  "main": "/.src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "grunt default --verbose"
+
+  },
+  "engines": {
+    "node": ">= 0.10.x"
+  }
+}

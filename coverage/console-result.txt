@@ -1,0 +1,43 @@
+unit-server started
+
+
+  tikal functionality
+connection
+---------------------------------------------------------------------------------------------------------
+Connection Opened and sending to URL: ws://127.0.0.1:5001
+    ✓ index methods
+received: {"name":"REQ","method":"GET","url":"https://jsonresponser.herokuapp.com/api/json/users"}
+connection
+connection
+---------------------------------------------------------------------------------------------------------
+Connection Opened and sending to URL: ws://127.0.0.1:5001
+---------------------------------------------------------------------------------------------------------
+Connection Opened and sending to URL: ws://127.0.0.1:5001
+Message Received from URL: ws://127.0.0.1:5001 message: something
+received: {"name":"REQ","method":"GET","url":"https://jsonresponser.herokuapp.com/api/json/users"}
+received: {"name":"REQ","method":"GET","url":"https://jsonresponser.herokuapp.com/api/json/users"}
+Message Received from URL: ws://127.0.0.1:5001 message: something
+Message Received from URL: ws://127.0.0.1:5001 message: something
+    1) invoking methods
+unit-server stopped
+    ✓ invoking methods
+---------------------------------------------------------------------------------------------------------
+Connection Closed
+Finnish Successfully
+---------------------------------------------------------------------------------------------------------
+Connection Closed
+---------------------------------------------------------------------------------------------------------
+Connection Closed
+Finnish Successfully
+unit-server stopped
+
+
+  2 passing (2s)
+  1 failing
+
+  1) tikal functionality invoking methods:
+     Error: timeout of 2000ms exceeded. Ensure the done() callback is being called in this test.
+  
+
+
+

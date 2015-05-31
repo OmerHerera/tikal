@@ -1,0 +1,14 @@
+{
+  "url": "ws://127.0.0.1:5001",
+  "connections": 1,
+  "delay_per_message": 5000,
+  "max_number_of_messages": 1,
+  "messages": {
+    "name": "REQ",
+    "method": "GET",
+    "url": "https://jsonresponser.herokuapp.com/api/json/users"
+  },
+  "async": {
+    "limit": 500
+  }
+}
