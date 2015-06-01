@@ -1,4 +1,5 @@
 # tikal
+![image](logo.png)
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![Build Status](https://travis-ci.org/OmerHerera/tikal.svg?branch=master)](https://travis-ci.org/OmerHerera/tikal)
