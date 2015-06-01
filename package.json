@@ -1,6 +1,6 @@
 {
   "name": "tikal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small Utility for testing WebSocket in nodejs testing concurrent connections",
   "keywords": [
     "ws",
